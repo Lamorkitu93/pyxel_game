@@ -6,6 +6,6 @@
 use zqsd or custom keys for the direction,
 press space to jump,
 press j for dash,
-press k for bow,
-press h for sword
+press k for bow once unlocked,
+press h for sword once unlocked
 
