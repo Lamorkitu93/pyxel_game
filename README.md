@@ -4,7 +4,7 @@
 ## How to Play
 
 use zqsd or custom keys for the direction
-press space tp jump
+press space to jump
 press j for dash
 press k for bow
 press h for sword
