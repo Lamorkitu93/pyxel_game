@@ -1,8 +1,3 @@
-# epopee pixelisee
-
-
-
-
 ## How to run
 
     > python mainV2.5.41.py
