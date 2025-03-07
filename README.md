@@ -5,7 +5,7 @@
 
 ## How to run
 
-    > python main V2.5.41.py
+    > python mainV2.5.41.py
 ## How to Play
 
 use zqsd or custom keys for the direction
