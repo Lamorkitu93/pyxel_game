@@ -1,6 +1,6 @@
 ## How to run
 
-    > python mainV2.5.41.py
+    > python main.py
 ## How to Play
 
 use zqsd or custom keys for the direction,
