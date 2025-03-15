@@ -53,7 +53,7 @@ class Player:
         self.vx,self.vy=0,0
         self.x,self.y=1*8,12*8
 
-        self.jump_height=-4.5
+        self.jump_height=4.5
         self.friction=0.8
         self.facing=1
         self.speed=0.4
@@ -213,7 +213,7 @@ class Player:
         if not self.dashing:
 
             self.vx= min(max(  self.vx*(self.friction if self.on_ground else self.friction)  ,-5),5)
-            self.vy= min(max( -self.vy+(self.g if not self.on_ground else 0)   ,-5),5 if not self.wall_slide else 1.2)
+            self.vy= min(max(  self.vy+(self.g if not self.on_ground else 0)   ,-5),5 if not self.wall_slide else 1.2)
 
     def collision_manager_general(self):
         precision=10
@@ -1617,7 +1617,7 @@ class App:
             self.transition_frame=0
             self.transition_delay=3
             self.load_things()
-            self.load()
+            #self.load()
             self.player.pv=0
         if pyxel.btnp(pyxel.MOUSE_BUTTON_LEFT) and (41-32)*8<pyxel.mouse_x<(47-32)*8 and 3*8<pyxel.mouse_y<5*8 and self.transition_to==None:
 
