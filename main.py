@@ -1926,7 +1926,7 @@ class App:
                     elif self.player.sword=='golden_sword':
                         i.loose_life(self.player.facing,2*self.player.dmg_multiplyer)
                     elif self.player.sword=='iron_sword':
-                        i.loose_life(self.player.facing,10*self.player.dmg_multiplyer)
+                        i.loose_life(self.player.facing,3*self.player.dmg_multiplyer)
                     self.player.attack_deal_damage=False
 
             #damage_player
